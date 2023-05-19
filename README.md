@@ -1,11 +1,75 @@
 ![NaWeki](https://user-images.githubusercontent.com/122417190/219989077-0cfcdff0-b28b-4f87-b36a-adcd0dfea1c8.png)
 
+### NaWeKi는 나이키를 모티브로 한 e-commerce 웹사이트 프로젝트입니다.
+[시연영상 보기](https://youtu.be/WrAWCsEN7DA)
 
-# 스포츠 용품 판매 사이트 Naweki
+
+# 팀 소개
+
+### Front-end
+| 신혜린 | 이유진 | 성은정 |
+| :-- | :-- | :-- |
+| 로그인, 회원가입, 장바구니 | 메인, 제품 상세 페이지 | 제품 목록, 결제 |
+[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/shinheylynn) | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/yujinni) | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/eejungee) |
+
+### Back-end
+| 이한재 | 강신혜 |
+| :-- | :-- |
+| 회원가입, 제품 목록 API | 로그인, 제품 상세, 장바구니 API|
+[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/jayhanjaelee) | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/ksh0123) |
+
+# Team Github Repository
+
+<!-- | Front-end | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/wecode-bootcamp-korea/42-1st-Naweki-frontend) |
+| --- | --- |
+| Back-end | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/wecode-bootcamp-korea/42-1st-Naweki-backend) | -->
+
+| Front-end | Back-end |
+| :--: | :--: |
+[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/wecode-bootcamp-korea/42-1st-Naweki-frontend) | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/wecode-bootcamp-korea/42-1st-Naweki-backend)
+
+# 개발 기간
+* 2023/02/06 ~ 2023/02/17 (2주)
+
+# Tech Stack
+
+## Front-end
+|JavaScript|React|Styled</br>Component|SCSS|ESLint|Prettier|
+| :--: | :--: | :--: | :--: | :--: | :-- |
+| <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://styled-components.com/logo.png" width="65" height="65" /></div> | <img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="icon" width="65" height="65" /></div> |<img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" height="65" /> | <div style="display: flex; align-items: flex-start;"> |
+
+<!-- | <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://styled-components.com/logo.png" width="65" height="65" /></div> | <img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" height="65" /> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="icon" width="65" height="65" /></div> | -->
+## Back-end
+|JavaScript|Nodejs|MySQL|Rest|
+| :--: | :--: | :--: | :--: |
+| <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="65" height="65" /> |
+
+
 
 # 플로차트
 ![NaWeKi Flowchart](https://github.com/ksh0123/42-1st-Naweki-backend/assets/122417190/d19db3d7-a198-4d06-a723-aeebc63268f7)
 
+ # Naweki ERD
+![ERD](https://user-images.githubusercontent.com/122243107/219989773-306c6d8e-63a6-4172-9c99-cda2e0e1f971.png)
+
+Naweki DB Schema 구조
+
+* users - 유저 정보 저장 하는 테이블
+  * shipping_address - 유저 배송지 저장하는 테이블
+
+* products - 상품 목록 저장하는 테이블
+  * sub_categories - 상품 서브 카테고리 저장하는 테이블
+  * categories - 상품 카테고리 저장하는 테이블
+  * product_images - 상품 이미지 저장하는 테이블
+  * product_options - 상품 옵션 저장하는 테이블 (재고, 사이즈)
+
+* cart - 장바구니 저장하는 테이블
+
+* orders - 주문 내역 저장하는 테이블, 유저의 상품 정보를 담기 위해 users 와 products 테이블을 n:m 관계로 연결
+
+* order_items - 주문 내역 저장하는 테이블
+  * order_status - 상품 주문 상태 저장하는 테이블
+  * reviews - 상품 리뷰 저장하는 테이블 주문 내역 있는 사용자만 리뷰 쓸수 있도록 order_items 의 order_id 와 연결
 
 
 <br>
@@ -118,66 +182,5 @@
 <br>
 
 
-# 팀 소개
-
-### Front-end
-| 신혜린 | 이유진 | 성은정 |
-| :-- | :-- | :-- |
-| 로그인, 회원가입, 장바구니 | 메인, 제품 상세 페이지 | 제품 목록, 결제 |
-[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/shinheylynn) | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/yujinni) | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/eejungee) |
-
-### Back-end
-| 이한재 | 강신혜 |
-| :-- | :-- |
-| 회원가입, 제품 목록 API | 로그인, 제품 상세, 장바구니 API|
-[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/jayhanjaelee) | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/ksh0123) |
-
-# Team Github Repository
-
-<!-- | Front-end | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/wecode-bootcamp-korea/42-1st-Naweki-frontend) |
-| --- | --- |
-| Back-end | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/wecode-bootcamp-korea/42-1st-Naweki-backend) | -->
-
-| Front-end | Back-end |
-| :--: | :--: |
-[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/wecode-bootcamp-korea/42-1st-Naweki-frontend) | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/wecode-bootcamp-korea/42-1st-Naweki-backend)
 
 
-# Naweki ERD
-![ERD](https://user-images.githubusercontent.com/122243107/219989773-306c6d8e-63a6-4172-9c99-cda2e0e1f971.png)
-
-Naweki DB Schema 구조
-
-* users - 유저 정보 저장 하는 테이블
-  * shipping_address - 유저 배송지 저장하는 테이블
-
-* products - 상품 목록 저장하는 테이블
-  * sub_categories - 상품 서브 카테고리 저장하는 테이블
-  * categories - 상품 카테고리 저장하는 테이블
-  * product_images - 상품 이미지 저장하는 테이블
-  * product_options - 상품 옵션 저장하는 테이블 (재고, 사이즈)
-
-* cart - 장바구니 저장하는 테이블
-
-* orders - 주문 내역 저장하는 테이블, 유저의 상품 정보를 담기 위해 users 와 products 테이블을 n:m 관계로 연결
-
-* order_items - 주문 내역 저장하는 테이블
-  * order_status - 상품 주문 상태 저장하는 테이블
-  * reviews - 상품 리뷰 저장하는 테이블 주문 내역 있는 사용자만 리뷰 쓸수 있도록 order_items 의 order_id 와 연결
-
-
-# 개발 기간
-* 2023/02/06 ~ 2023/02/17 (2주)
-
-# Tech Stack
-
-## Front-end
-|JavaScript|React|Styled</br>Component|SCSS|ESLint|Prettier|
-| :--: | :--: | :--: | :--: | :--: | :-- |
-| <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://styled-components.com/logo.png" width="65" height="65" /></div> | <img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="icon" width="65" height="65" /></div> |<img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" height="65" /> | <div style="display: flex; align-items: flex-start;"> |
-
-<!-- | <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://styled-components.com/logo.png" width="65" height="65" /></div> | <img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" height="65" /> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="icon" width="65" height="65" /></div> | -->
-## Back-end
-|JavaScript|Nodejs|MySQL|Rest|
-| :--: | :--: | :--: | :--: |
-| <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="65" height="65" /> |
