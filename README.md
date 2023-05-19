@@ -1,9 +1,12 @@
-![image](https://user-images.githubusercontent.com/122417190/219989077-0cfcdff0-b28b-4f87-b36a-adcd0dfea1c8.png)
+![NaWeki](https://user-images.githubusercontent.com/122417190/219989077-0cfcdff0-b28b-4f87-b36a-adcd0dfea1c8.png)
 
 
 # 스포츠 용품 판매 사이트 Naweki
 
-# Naweki Goal
+# 플로차트
+![NaWeKi Flowchart](https://github.com/ksh0123/42-1st-Naweki-backend/assets/122417190/d19db3d7-a198-4d06-a723-aeebc63268f7)
+
+
 
 <br>
 
